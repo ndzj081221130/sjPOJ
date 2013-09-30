@@ -1,0 +1,1 @@
+package t1009;import java.util.Scanner;public class Main {	public static void main(String[] args) {		Scanner scanner = new Scanner(System.in);		int n = Integer.parseInt(scanner.nextLine());		if (n < 1) {			System.out.println("n must > 0");			return;		} else if (n > 365) {			System.out.println("n must <= 365");			return;		}		String[] nums = new String[n];	}}
